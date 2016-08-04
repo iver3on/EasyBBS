@@ -28,6 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    %>
   
     <table>
+    <!--jsp方式前端显示。还可以使用EL表达式-->
     <%
     	for(Message m:ms){
     		out.print("<tr>");
